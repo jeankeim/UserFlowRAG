@@ -1,0 +1,52 @@
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Environment files
+.env
+*.env
+
+# Log files
+logs/
+*.log
+
+# Data files
+data/vector_store/
+data/cache/
+
+# Model files
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/

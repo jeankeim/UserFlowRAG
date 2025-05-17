@@ -1,0 +1,24 @@
+# Task configurations
+tasks:
+  research:
+    description: "搜索和收集相关信息"
+    agent: "researcher"
+    priority: 1
+    expected_output: "相关信息列表"
+
+  analyze:
+    description: "分析和验证收集到的信息"
+    agent: "analyst"
+    priority: 2
+    expected_output: "分析报告"
+
+  write:
+    description: "生成最终答案"
+    agent: "writer"
+    priority: 3
+    expected_output: "完整答案"
+
+task_chain:
+  - research
+  # - analyze
+  # - write

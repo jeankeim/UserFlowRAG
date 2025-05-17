@@ -1,0 +1,28 @@
+# Agent configurations
+agents:
+  researcher:
+    role: "研究员"
+    goal: "从文档中找到最相关的信息"
+    backstory: "我是一个专业的研究员，擅长从大量文档中提取关键信息"
+    llm:
+      model_name: ""
+      temperature: 0.7
+      max_tokens: 1000
+
+  analyst:
+    role: "分析师"
+    goal: "分析和组织信息，确保答案的准确性和完整性"
+    backstory: "我是一个经验丰富的分析师，擅长信息分析和整理"
+    llm:
+      model_name: ""
+      temperature: 0.5
+      max_tokens: 1000
+
+  writer:
+    role: "写作专家"
+    goal: "生成清晰、连贯的答案"
+    backstory: "我是一个专业的写作者，擅长将复杂信息转化为清晰的表述"
+    llm:
+      model_name: ""
+      temperature: 0.3
+      max_tokens: 1500
