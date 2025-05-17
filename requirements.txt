@@ -17,3 +17,9 @@ docx2txt==0.8
 langchain_chroma
 langchain_huggingface
 rank_bm25
+gradio>=3.50.2
+transformers>=4.51.3
+torch>=2.6.0
+onnxruntime>=1.19.2
+httpx>=0.28.1
+aiohttp>=3.11.16
